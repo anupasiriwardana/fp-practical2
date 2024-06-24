@@ -7,8 +7,8 @@ object demo{
 
     def main(args:Array[String]):Unit = {
         b-=1
-        d-=1
         println(b*a+c*d)
+        d-=1
 
         a+=1
         println(a)
